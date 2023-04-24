@@ -8,6 +8,8 @@ public class FUtil {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println(fExiste("Fichero.txt"));
+		String frase1 = new String("¡Hola, mundo!");
+		imprime(frase1);
 	}
 	
 	public static boolean fExiste (String filename) {
@@ -20,5 +22,8 @@ public class FUtil {
 		}
 		return existe;
 	}
-
+	
+	public static void imprime (String frase) {
+		System.out.println(frase);
+	}
 }
