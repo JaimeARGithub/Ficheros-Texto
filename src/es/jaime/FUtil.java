@@ -26,6 +26,7 @@ public class FUtil {
 		} catch (IOException ioe) {
 			System.out.println("Errorcillo.");
 		}
+		System.out.println("Obteniendo resultados...");
 		return existe;
 	}
 	
